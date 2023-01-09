@@ -1,4 +1,4 @@
-# arm-linux-gnueabihf-gcc toolchain
+# aarch64-linux-gnu-gcc toolchain
 
 set(triple aarch64-linux-gnu)
 
@@ -14,7 +14,7 @@ else()
 endif()
 
 set(CMAKE_SYSTEM_NAME Linux)
-set(CMAKE_SYSTEM_PROCESSOR arm)
+set(CMAKE_SYSTEM_PROCESSOR arm64)
 set(CMAKE_SYSTEM_VERSION 1)
 
 set(CMAKE_C_COMPILER ${TOOLCHAIN_PREFIX}-gcc)
