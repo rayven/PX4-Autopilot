@@ -11,3 +11,5 @@ ipch/
 browse.vc.db*
 
 *.log
+
+build/
